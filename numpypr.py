@@ -53,3 +53,14 @@ print(np.where(a_arr == 2))
 
 sort1 = np.array([7, 3, 1, 8, 4, 9])
 print(np.sort(sort1))
+
+check = []
+
+for element in sort1:
+    if element > 3:
+        check.append(True)
+    else:
+        check.append(False) 
+
+g = sort1[check]
+print(g)
